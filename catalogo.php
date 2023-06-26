@@ -257,6 +257,18 @@ if ($categoria == '' && $token != '') { //En caso de no recibir una categoría c
                 padding: 15px 10px;
                 cursor: pointer;
             }
+
+            /*Muestra de productos de catálogo responsive*/
+            @media (max-width: 1000px) {
+
+			.container-items {
+            display: grid;
+            grid-template-columns: repeat(1, 1fr);
+            gap: 20px;
+            margin-bottom: .5em;
+        }
+		}
+
         </style>
     </head>
 
